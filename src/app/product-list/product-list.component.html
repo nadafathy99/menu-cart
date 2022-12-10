@@ -1,0 +1,14 @@
+<ng-container *ngIf="products$ |async as products">
+  <div class="container d-flex justify-center">  
+    <mat-card class="w-25 w-md-70 w-sm-100 my-1" *ngFor="let product of products">  
+            <mat-card-title>{{product.name}}</mat-card-title>
+            <mat-card-content class="py-3 px-2 content-text">
+              {{product.description | slice :0:50}} ....
+              <p class="price">{{product.price}} $</p> 
+            </mat-card-content>
+            <button (click)="addItem(product)" class="cart-btn" mat-icon-button color="primary">
+              <mat-icon color="primary">shopping_cart</mat-icon>
+            </button>
+    </mat-card>
+  </div>  
+</ng-container>

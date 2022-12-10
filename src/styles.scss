@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 95%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.w-25{
+    width: 25%;
+}
+
+.w-25{
+    width: 25%;
+}
+.w-75{
+    width: 75%;
+}
+
+.py-3{ 
+    padding: 1rem 0;
+} 
+
+.px-2{
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.my-1 {
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 1200px) {
+    .w-md-70{
+        width: 50%;
+    }  
+}
+
+@media (max-width: 768px) {
+    .w-sm-100{
+        width: 100%;
+    }  
+}
+

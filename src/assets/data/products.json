@@ -1,0 +1,16 @@
+[
+    {"id":1, "name": "Turkey And Eggs Mornay", "description":
+    "Poached organic eggs, served over a bed of wilted baby spinach and toasted whole grain english muffin. topped with rich mornay sauce.", "price":150, "typeId":3},
+    {"id":2, "name": "Crispy Bacon Poached Eggs", "description":
+    "Toast topped with poached eggs and crispy bacon with mornay sauce.", "price":150,  "typeId":3},
+    {"id":3, "name": "Crispy Bacon Omelette", "description":
+    "Omelette topped with crispy bacon and cheddar sauce with a side salad and potato wedges.", "price":145, "typeId":3},
+    {"id":4, "name": "Lotus Biscoff Pancake Stack", "description":
+    "Lotus yummy pancakes.", "price":135, "typeId":4},
+    {"id":5, "name": "Escalope And Salad", "description":
+    "Panko breaded chicken breast topped with baby leaf salad and finished with a lemon vinaigrette.", "price":210, "typeId":5},
+    {"id":6, "name": "Shrimp Saffron Linguine", "description":
+    "Saffron cream linguine with sauteed garlic shrimps.", "price":245, "typeId":5},
+    {"id":7, "name": "Lotus Biscoff Milkshake", "description":
+    "Lotus spread, lotus biscuits, vanilla ice-cream, milk, topped with whipped cream.", "price":95, "typeId":1}
+]

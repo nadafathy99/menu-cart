@@ -1,0 +1,7 @@
+[
+    {"id":1,"name":"Milkshake And Coctails", "catId":1},
+    {"id":2,"name":"Hot Drinks","catId":1},
+    {"id":3,"name":"Breakfast Salty","catId":2},
+    {"id":4,"name":"Breakfast Sweet","catId":2},
+    {"id":5,"name":"Comfort Food","catId":2}
+]

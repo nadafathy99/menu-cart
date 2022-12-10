@@ -1,0 +1,18 @@
+<p>
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <span>LOGO</span>
+      </mat-toolbar-row>    
+      <mat-toolbar-row>
+        <ng-container *ngIf="categories$ |async as categories">
+            <button (click)="categoryChanged(category.id)" *ngFor="let category of categories" mat-button>{{category.name}} </button>
+        </ng-container>
+      </mat-toolbar-row>
+
+      <mat-toolbar-row>
+        <ng-container *ngIf="categoryTypes$ |async as categoriesTypes">
+            <button (click)="typeChanged(categoryTypes.id)" *ngFor="let categoryTypes of categoriesTypes" mat-button>{{categoryTypes.name}}</button>
+        </ng-container>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </p>
